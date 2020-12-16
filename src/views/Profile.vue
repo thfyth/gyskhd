@@ -53,7 +53,7 @@
                     审核失败
                   </span>
                   <span v-else>
-                    状态错误
+                    尚未提交报名
                   </span>
                 </template>
               </el-table-column>
@@ -88,33 +88,33 @@ export default {
       tableData:[
         {
           name:"XX报名",
-          fenlei:"供方",
+          fenlei:"工程类/工程施工类/外装",
           time:"2020-12-14",
           status:1,
         },{
           name:"XX报名",
-          fenlei:"供方",
+          fenlei:"工程类/工程施工类/外装",
           time:"2020-12-14",
           status:1,
         },{
           name:"XX报名",
-          fenlei:"供方",
+          fenlei:"工程类/工程施工类/外装",
           time:"2020-12-14",
           status:0,
 
         },{
           name:"XX报名",
-          fenlei:"供方",
+          fenlei:"工程类/工程施工类/外装",
           time:"2020-12-14",
           status:0,
         },{
           name:"XX报名",
-          fenlei:"供方",
+          fenlei:"工程类/工程施工类/外装",
           time:"2020-12-14",
           status:2,
         },{
           name:"XX报名",
-          fenlei:"供方",
+          fenlei:"工程类/工程施工类/外装",
           time:"2020-12-14",
           status:3,
         }
