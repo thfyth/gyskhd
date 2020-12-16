@@ -57,7 +57,7 @@
                   </span>
                 </template>
               </el-table-column>
-              <el-table-column label="操作">
+              <el-table-column label="操作" align="center">
                 <template slot-scope="scope">
                   <el-button  v-if="scope.row.status == 0" class="go-id" @click="delFun(scope.row)">
                     继续报名
@@ -204,7 +204,7 @@ export default {
       padding-top: 18px;
       display: flex;
       .table-left{
-        width: 313px;
+        width: 238px;
         margin: 0 20px;
         border-left:1px solid #EEEEEE;
         border-right: 1px solid #EEEEEE;
@@ -224,7 +224,7 @@ export default {
               color: #fff;
               // height: 32px;
               line-height: 32px;
-                height: 34px;
+              height: 34px;
               padding: 0 40px;
             }
             .rester-btn{
